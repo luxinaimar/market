@@ -222,12 +222,12 @@
         }
     
         //调用职能合约
-        var dappAddress = "n1kLfimJgHWTbL5xR3JxcrVq7Ek9gMVSLff";
+        var dappAddress = "n1xLJkK5ikzuDMzi2JmE8Aqm2HEc7nepfXy";
 
         var nebulas = require("nebulas"),
             Account = nebulas.Account,
             neb = new nebulas.Neb();
-        neb.setRequest(new nebulas.HttpRequest("https://testnet.nebulas.io"));
+        neb.setRequest(new nebulas.HttpRequest("https://mainnet.nebulas.io"));
 
         function getData(cnt, index){
             var from = Account.NewAccount().getAddressString();
